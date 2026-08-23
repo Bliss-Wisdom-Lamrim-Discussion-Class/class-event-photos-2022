@@ -1,7 +1,19 @@
 {
-  "updated_at": "2026-08-23T15:09:53Z",
-  "total_commits": 4,
+  "updated_at": "2026-08-23T15:10:23Z",
+  "total_commits": 5,
   "commits": [
+    {
+      "commit_hash": "736de2cc0509b15305854dee954f4cc6be38d714",
+      "short_hash": "736de2c",
+      "author": "Contributor",
+      "date": "2026-08-23 23:10:04",
+      "commit_message": "20220227忠山里幸福約會",
+      "folder_name": "[2026-08-23_23-10-04]20220227忠山里幸福約會",
+      "sub_data_url": "photos/[2026-08-23_23-10-04]20220227忠山里幸福約會/gallery-data.json",
+      "photo_count": 7,
+      "cover_photo": "photos/[2026-08-23_23-10-04]20220227忠山里幸福約會/LINE_ALBUM_20220227忠山里幸福約會_260823_1.jpg",
+      "cover_thumbnail": "thumbnails/[2026-08-23_23-10-04]20220227忠山里幸福約會/LINE_ALBUM_20220227忠山里幸福約會_260823_1.jpg"
+    },
     {
       "commit_hash": "0176bdede5372621f502251b6155c217317ae7bf",
       "short_hash": "0176bde",
