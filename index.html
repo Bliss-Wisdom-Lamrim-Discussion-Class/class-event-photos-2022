@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-TW" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GitHub 相簿 - 自動縮圖與 Commit 分頁相簿</title>
+  <meta name="description" content="自動由 GitHub Actions 解析 Commit 歷史與圖片縮圖的響應式動態相簿" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- 頂部導覽列 Header -->
+  <header class="site-header">
+    <div class="container header-content">
+      <a href="#" class="brand">
+        <div class="brand-icon">📸</div>
+        <div>
+          <h1 class="brand-title">GitHub Photo Gallery</h1>
+          <div class="brand-subtitle">Automated Commit Album</div>
+        </div>
+      </a>
+
+      <!-- 主題切換器與回首頁按鈕 -->
+      <div class="header-controls">
+        <button id="nav-home-btn" class="nav-home-btn" title="返回第一頁並滾動至頂部">🏠 回首頁</button>
+        <div class="theme-selector" role="group" aria-label="主題切換器">
+          <button class="theme-btn active" data-set-theme="light" title="淺色模式">☀️ 淺色</button>
+          <button class="theme-btn" data-set-theme="dark" title="深色模式">🌙 深色</button>
+          <button class="theme-btn" data-set-theme="vintage" title="復古模式">📜 復古</button>
+          <button class="theme-btn" data-set-theme="cyberpunk" title="賽博朋克">⚡ 賽博朋克</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- 主內容區域 Main Content -->
+  <main class="main-content">
+    <div class="container">
+      
+      <!-- [層級 1] 頂部快速相簿目錄索引 -->
+      <section class="album-index-section">
+        <div class="album-index-header">
+          <h2>📚 相簿目錄索引 (按上傳日期排序)</h2>
+          <span class="album-index-subtitle">點擊標題可直接跳轉至該次相簿</span>
+        </div>
+        <div id="album-index-nav" class="album-index-nav">
+          <!-- JS 將自動填入頂部相簿索引連結 -->
+        </div>
+      </section>
+
+      <!-- [層級 2] 主頁面縱向直排相簿與縮圖 (最新在上) -->
+      <div id="gallery-container" class="gallery-container">
+        <!-- JS 將自動填入所有 Commit 相簿 -->
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Lightbox 全螢幕原圖彈窗 Modal -->
+  <div id="lightbox-modal" class="lightbox-modal" aria-hidden="true" role="dialog">
+    <!-- 頂部懸浮控制工具列 -->
+    <div class="lightbox-toolbar">
+      <div class="lightbox-toolbar-group">
+        <button id="zoom-in-btn" class="lightbox-tool-btn" title="放大照片 (+)">🔍+ 放大</button>
+        <button id="zoom-out-btn" class="lightbox-tool-btn" title="縮小照片 (-)">🔍- 縮小</button>
+        <button id="zoom-reset-btn" class="lightbox-tool-btn" title="重置 1:1 尺寸">↺ 重置</button>
+        <button id="zoom-fit-btn" class="lightbox-tool-btn" title="全螢幕/滿版切換">⛶ 滿版</button>
+      </div>
+      <button id="lightbox-close" class="lightbox-close-btn" title="關閉相片檢視器 (Esc)">✕ 關閉</button>
+    </div>
+
+    <button id="lightbox-prev" class="lightbox-prev" title="上一張 (←)">&lsaquo;</button>
+    <button id="lightbox-next" class="lightbox-next" title="下一張 (→)">&rsaquo;</button>
+
+    <div class="lightbox-content">
+      <div id="lightbox-img-wrapper" class="lightbox-img-wrapper">
+        <img id="lightbox-img" class="lightbox-img" src="" alt="" draggable="false" />
+      </div>
+      <div class="lightbox-meta">
+        <h3 id="lightbox-title" class="lightbox-title"></h3>
+        <p id="lightbox-subtext" class="lightbox-subtext"></p>
+        <div class="lightbox-hint">💡 提示：可以使用滑鼠滾輪縮放照片，放大後可按住滑鼠拖曳移動，或按 Esc 鍵關閉</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 頁尾 Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>Powered by GitHub Pages & GitHub Actions • Built with Vanilla Web Standards</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
