@@ -1,7 +1,19 @@
 {
-  "updated_at": "2026-08-23T15:20:33Z",
-  "total_commits": 12,
+  "updated_at": "2026-08-23T15:21:05Z",
+  "total_commits": 13,
   "commits": [
+    {
+      "commit_hash": "d1a3c8f4be26ca557372d7bd627f6700bc61f493",
+      "short_hash": "d1a3c8f",
+      "author": "Contributor",
+      "date": "2026-08-23 23:20:42",
+      "commit_message": "2023/7/28 淨智營第二期",
+      "folder_name": "[2026-08-23_23-20-42]2023_7_28_淨智營第二期",
+      "sub_data_url": "photos/[2026-08-23_23-20-42]2023_7_28_淨智營第二期/gallery-data.json",
+      "photo_count": 21,
+      "cover_photo": "photos/[2026-08-23_23-20-42]2023_7_28_淨智營第二期/LINE_ALBUM_2023728 淨智營第二期_260823_1.jpg",
+      "cover_thumbnail": "thumbnails/[2026-08-23_23-20-42]2023_7_28_淨智營第二期/LINE_ALBUM_2023728 淨智營第二期_260823_1.jpg"
+    },
     {
       "commit_hash": "847585db89ef371b807f0ad02c7323a6ef187c05",
       "short_hash": "847585d",
