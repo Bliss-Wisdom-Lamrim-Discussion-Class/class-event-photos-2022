@@ -1,7 +1,19 @@
 {
-  "updated_at": "2026-08-23T15:19:08Z",
-  "total_commits": 10,
+  "updated_at": "2026-08-23T15:19:54Z",
+  "total_commits": 11,
   "commits": [
+    {
+      "commit_hash": "a21beaf89eff4828fa0b3f8712287c9922c707d2",
+      "short_hash": "a21beaf",
+      "author": "Contributor",
+      "date": "2026-08-23 23:19:24",
+      "commit_message": "20230603月稱光明寺鳯山寺",
+      "folder_name": "[2026-08-23_23-19-24]20230603月稱光明寺鳯山寺",
+      "sub_data_url": "photos/[2026-08-23_23-19-24]20230603月稱光明寺鳯山寺/gallery-data.json",
+      "photo_count": 81,
+      "cover_photo": "photos/[2026-08-23_23-19-24]20230603月稱光明寺鳯山寺/LINE_ALBUM_20230603月稱光明寺鳯山寺_260823_1.jpg",
+      "cover_thumbnail": "thumbnails/[2026-08-23_23-19-24]20230603月稱光明寺鳯山寺/LINE_ALBUM_20230603月稱光明寺鳯山寺_260823_1.jpg"
+    },
     {
       "commit_hash": "7159cde7b7e596a126fdecda77f22643524d1b39",
       "short_hash": "7159cde",
