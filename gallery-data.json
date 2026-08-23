@@ -1,7 +1,19 @@
 {
-  "updated_at": "2026-08-23T15:24:27Z",
-  "total_commits": 17,
+  "updated_at": "2026-08-23T15:25:21Z",
+  "total_commits": 18,
   "commits": [
+    {
+      "commit_hash": "301c01fc8b850cf5c759dbbfbb4a3a5cf4c3b857",
+      "short_hash": "301c01f",
+      "author": "Contributor",
+      "date": "2026-08-23 23:24:46",
+      "commit_message": "20240307廣供",
+      "folder_name": "[2026-08-23_23-24-46]20240307廣供",
+      "sub_data_url": "photos/[2026-08-23_23-24-46]20240307廣供/gallery-data.json",
+      "photo_count": 103,
+      "cover_photo": "photos/[2026-08-23_23-24-46]20240307廣供/LINE_ALBUM_20240307廣供_260823_1.jpg",
+      "cover_thumbnail": "thumbnails/[2026-08-23_23-24-46]20240307廣供/LINE_ALBUM_20240307廣供_260823_1.jpg"
+    },
     {
       "commit_hash": "1743d6c3076397fca1ac97b2a1945565a33b86cf",
       "short_hash": "1743d6c",
